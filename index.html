@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>GoMommy</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="video-background">
+        <video autoplay muted loop>
+          <source src="assets/video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="content">
+        <div class="logo">
+          <img
+            src="assets/logo-no-background.png"
+            alt="Logo"
+            class="logo-picture"
+          />
+        </div>
+        <nav class="navigation">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about-header">About</a></li>
+            <li><a href="#adoption-process">Process</a></li>
+            <li><a href="#children-hub">Services</a></li>
+            <li><a href="#acme-container">Contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="text">
+        <h2>WELCOME TO GoMommy</h2>
+        <h3>A PLACE FOR EVERY CHILD</h3>
+        <p>
+          At GoMommy, we believe in creating families, one heart at a time. Our
+          mission is to connect loving parents with children in need of a
+          forever home, fostering a future filled with love, laughter, and
+          endless possibilities. Join us in the journey of building brighter
+          tomorrows for every child, because every little one deserves a place
+          to call home
+        </p>
+      </div>
+    </div>
+
+    <div id="about-header">ABOUT US</div>
+
+    <div class="image-gallery">
+      <div class="image">
+        <img
+          src="assets/children-s-silhouettes-showing-muscles-sunset.jpg"
+          alt="Image 1"
+        />
+        <div class="caption">
+          <h3>THE PROBLEM</h3>
+          <p>
+            GoMommy addresses the challenge of connecting loving parents with
+            children in need of a forever home. Our platform streamlines the
+            adoption process, providing resources and support to ensure
+            successful family formations.
+          </p>
+          <button class="gallery-button">View More</button>
+        </div>
+      </div>
+      <div class="image">
+        <img
+          src="assets/group-happy-people-jumping-mountain-sunset.jpg"
+          alt="Image 2"
+        />
+        <div class="caption">
+          <h3>OUR APPROACH</h3>
+          <p>
+            Our approach at GoMommy is rooted in compassion, transparency, and
+            support. We prioritize the well-being of every child and work
+            tirelessly to match them with caring parents, guiding families
+            through the adoption journey with empathy and expertise.
+          </p>
+          <button class="gallery-button">View More</button>
+        </div>
+      </div>
+      <div class="image">
+        <img
+          src="assets/silhouette-children-posing-hill-surrounded-by-greenery-golden-sunset.jpg"
+          alt="Image 3"
+        />
+        <div class="caption">
+          <h3>OUR IMPACT</h3>
+          <p>
+            Our impact is measured by the countless families we've brought
+            together and the lives we've transformed through adoption. Each
+            successful match represents a new chapter of love, stability, and
+            hope for children and parents alike.
+          </p>
+          <button class="gallery-button">View More</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="split-landing-container">
+      <div class="split-landing-section split-landing-left">
+        <h1>A PLACE</h1>
+        <a href="#" class="split-landing-button">Donate</a>
+      </div>
+      <div class="split-landing-section split-landing-right">
+        <h1>FOR EVERY CHILD</h1>
+        <a href="#" class="split-landing-button">Begin Process</a>
+      </div>
+    </div>
+
+    <section id="adoption-process">
+      <div class="process-container">
+        <h2>Child Adoption Process</h2>
+        <div class="step">
+          <img src="assets/application.png" alt="Step 1" />
+          <div class="step-details">
+            <h3>Step 1: Application</h3>
+            <p>
+              Begin the adoption process by submitting an application via the
+              GoMommy website. You can view available children and apply online
+              by filling out the application form and providing the necessary
+              personal information.
+            </p>
+          </div>
+        </div>
+        <div class="step">
+          <img src="assets/inspection.png" alt="Step 2" />
+          <div class="step-details">
+            <h3>Step 2: Home Study</h3>
+            <p>
+              Undergo a home study evaluation conducted by a licensed social
+              worker. This process assesses your readiness to adopt, ensuring
+              that your home environment is safe and suitable for a child.
+            </p>
+          </div>
+        </div>
+        <div class="step">
+          <img src="assets/happy.png" alt="Step 3" />
+          <div class="step-details">
+            <h3>Step 3: Placement</h3>
+            <p>
+              Once approved, you'll meet the child, finalize legal arrangements,
+              and begin the transition process. Receive support and guidance
+              from adoption professionals every step of the way.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="children-hub">
+      <h1 class="hub-header">MEET THE CHILDREN</h1>
+      <div class="hub-form-div">
+        <label for="searchInput">Search by County:</label>
+        <input type="text" id="searchInput" />
+      </div>
+      <div id="kidsContainer" class="kids-image">
+        <!-- Kids will be displayed here dynamically -->
+      </div>
+    </section>
+
+    <div id="acme-container">
+      <h1 class="acme-brand"><span>Acme</span> Contact Us</h1>
+      <div class="acme-wrapper animate__animated animate__bounceInLeft">
+        <div class="acme-company-info">
+          <h3>GoMommy</h3>
+          <ul>
+            <li>
+              <i class="fa fa-road"></i>Kasarani opp Kasarani Police Station
+            </li>
+            <li><i class="fa fa-phone"></i> 07 000 000 00</li>
+            <li><i class="fa fa-envelope"></i> GoMommy@gmail.com</li>
+          </ul>
+        </div>
+        <div class="acme-contact">
+          <h3>Email Us</h3>
+          <form action="#">
+            <p>
+              <label>Name</label>
+              <input type="text" name="name" />
+            </p>
+            <p>
+              <label>Address</label>
+              <input type="text" name="company" />
+            </p>
+            <p>
+              <label>Email Address</label>
+              <input type="email" name="email" />
+            </p>
+            <p>
+              <label>Phone Number</label>
+              <input type="text" name="phone" />
+            </p>
+            <p class="acme-full">
+              <label>Message</label>
+              <textarea name="name" rows="5"></textarea>
+            </p>
+            <p class="acme-full">
+              <button type="submit" class="form-submit">Submit</button>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

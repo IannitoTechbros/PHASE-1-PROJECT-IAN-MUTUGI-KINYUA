@@ -1,0 +1,124 @@
+{
+  "kids": [
+    {
+      "id": "1",
+      "name": "John Njoroge",
+      "age": 5,
+      "height": "3'5\"",
+      "county": "Nairobi",
+      "hobbies": ["Drawing", "Soccer"],
+      "image": "/assets/images/John.jpg",
+      "likes": 0
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "age": 6,
+      "height": "3'2\"",
+      "county": "Nairobi",
+      "hobbies": ["Reading", "Cycling"],
+      "image": "/assets/images/Jane.jpg",
+      "likes": 0
+    },
+    {
+      "id": "3",
+      "name": "David Kimathi",
+      "age": 4,
+      "height": "3'0\"",
+      "county": "Nairobi",
+      "hobbies": ["Singing", "Painting"],
+      "image": "/assets/images/Daudi.jpg",
+      "likes": 0
+    },
+    {
+      "id": "4",
+      "name": "Mary Gathoni",
+      "age": 7,
+      "height": "3'4\"",
+      "county": "Nakuru",
+      "hobbies": ["Dancing", "Swimming"],
+      "image": "/assets/images/Mary.jpg",
+      "likes": 0
+    },
+    {
+      "id": "5",
+      "name": "James Wilson",
+      "age": 5,
+      "height": "3'1\"",
+      "county": "Nakuru",
+      "hobbies": ["Chess", "Gardening"],
+      "image": "/assets/images/Jamo.jpg",
+      "likes": 0
+    },
+    {
+      "id": "6",
+      "name": "Emma Cheptoo",
+      "age": 6,
+      "height": "3'3\"",
+      "county": "Nakuru",
+      "hobbies": ["Cooking", "Hiking"],
+      "image": "/assets/images/Emma.jpg",
+      "likes": 0
+    },
+    {
+      "id": "7",
+      "name": "Michael Otieno",
+      "age": 4,
+      "height": "2'11\"",
+      "county": "Kisumu",
+      "hobbies": ["Fishing", "Video Games"],
+      "image": "/assets/images/Michael.jpg",
+      "likes": 0
+    },
+    {
+      "id": "8",
+      "name": "Olivia Atieno",
+      "age": 6,
+      "height": "3'0\"",
+      "county": "Kisumu",
+      "hobbies": ["Playing Guitar", "Crafting"],
+      "image": "/assets/images/Olivia.jpg",
+      "likes": 0
+    },
+    {
+      "id": "9",
+      "name": "William Hernandez",
+      "age": 7,
+      "height": "3'2\"",
+      "county": "Kisumu",
+      "hobbies": ["Basketball", "Cooking"],
+      "image": "/assets/images/William.jpg",
+      "likes": 0
+    },
+    {
+      "id": "10",
+      "name": "Sophia Kadzo",
+      "age": 3,
+      "height": "2'9\"",
+      "county": "Mombasa",
+      "hobbies": ["Running", "Painting"],
+      "image": "/assets/images/Sophia.jpg",
+      "likes": 0
+    },
+    {
+      "id": "11",
+      "name": "Ethan Makaburi",
+      "age": 5,
+      "height": "3'0\"",
+      "county": "Mombasa",
+      "hobbies": ["Reading", "Soccer"],
+      "image": "/assets/images/Ethan.jpg",
+      "likes": 0
+    },
+    {
+      "id": "12",
+      "name": "Isabella Hamisa",
+      "age": 4,
+      "height": "2'11\"",
+      "county": "Mombasa",
+      "hobbies": ["Drawing", "Dancing"],
+      "image": "/assets/images/Isabella.jpg",
+      "likes": 0
+    }
+  ]
+}
